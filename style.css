@@ -1,0 +1,73 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+  background-color: white;
+  width: 750px;
+  height: 550px;
+  border-radius: 20px;
+ 
+}
+.main-container{
+  padding: 30px;
+}
+.stay{
+  color: hsl(235, 18%, 26%);
+}
+
+.join{
+  width: 320px;
+}
+.icon-1{
+  display: flex;
+  gap: 14px;
+}
+
+.icon-2{
+  display: flex;
+  gap: 14px;
+}
+.icon-3{
+  display: flex;
+  gap: 14px;
+}
+.p-txt{
+  color: hsl(235, 18%, 26%);
+}
+.inp-btn{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.inp-1{
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.btn{
+  width: 325px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.img{
+  margin: auto;
+  width: 315px;
+  height: 400px;
+
+}
+
+
+.img{
+  display: flex;
+ 
+}
+
+
