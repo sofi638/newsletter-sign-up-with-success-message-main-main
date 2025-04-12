@@ -11,45 +11,46 @@ body {
   width: 750px;
   height: 550px;
   border-radius: 20px;
- 
+  display: flex;
+  align-items: center;
 }
-.main-container{
+.main-container {
   padding: 30px;
 }
-.stay{
+.stay {
   color: hsl(235, 18%, 26%);
 }
 
-.join{
+.join {
   width: 320px;
 }
-.icon-1{
+.icon-1 {
   display: flex;
   gap: 14px;
 }
 
-.icon-2{
+.icon-2 {
   display: flex;
   gap: 14px;
 }
-.icon-3{
+.icon-3 {
   display: flex;
   gap: 14px;
 }
-.p-txt{
+.p-txt {
   color: hsl(235, 18%, 26%);
 }
-.inp-btn{
+.inp-btn {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.inp-1{
+.inp-1 {
   width: 300px;
   padding: 15px;
   border-radius: 10px;
 }
-.btn{
+.btn {
   width: 325px;
   background-color: hsl(234, 29%, 20%);
   color: white;
@@ -57,17 +58,100 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
-.img{
-  margin: auto;
-  width: 315px;
-  height: 400px;
-
+.img {
+  width: 340px;
+  height: 550px;
 }
 
-
-.img{
-  display: flex;
- 
+.img-mobile {
+  display: none;
 }
 
+@media (max-width: 750px) {
+  .container {
+    width: 640px;
+    padding: 10px;
+    height: 500px;
+  }
+  .img {
+    width: 310px;
+    height: 550px;
+  }
+  .main-container {
+    width: 310px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .inp-1 {
+    width: 90%;
+  }
+  .join {
+    width: 220px;
+  }
+  .main-container {
+    padding: 10px;
+  }
+}
 
+@media (max-width: 662px) {
+  .container {
+    width: 400px;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+  }
+  .img {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-container {
+    width: 310px;
+    margin: 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  .inp-1 {
+    width: 90%;
+  }
+  .join {
+    width: auto;
+  }
+}
+
+@media (max-width: 410px) {
+  .container {
+    width: 300px;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+  }
+  .img {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-container {
+    width: 250px;
+    margin: 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  .inp-1 {
+    width: 90%;
+  }
+  .join {
+    width: auto;
+  }
+}
